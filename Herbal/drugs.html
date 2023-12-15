@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Alwastan Herbals</title>
+		<link rel="stylesheet" href="./css/style.css">
+		<!--fontawesome cdn-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<style>
+		a{
+			text-decoration: none;
+		}
+		ul{
+			list-style:none;
+		}
+		#remedies{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			flex-direction:column;
+			padding: 40px;
+			border-bottom: 1px solid rgba(0,0,0,0.05);
+		}
+		.remedies-heading{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			flex-direction:column;
+		}
+		.remedies-heading span{
+			font-size: 3.5rem;
+			color: maroon;
+		}
+		.remedies-heading h3{
+			font-size: 2rem;
+			color: blue;
+			font-weight: normal;
+		}
+		.remedies-container{
+			display:flex;
+			justify-content:center;
+			align-items:center;
+			margin: 20px 0px;
+			flex-wrap: wrap;
+		}
+		.remedies-box{
+			width: 350px;
+			background-color: #ffffffff;
+			border: 1px solid #ecececec;
+			margin: 20px;
+		}
+		.remedies-img{
+			width:100%;
+			height: auto;
+		}
+		.remedies-img img{
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position:center;
+		}
+		.remedies-text{
+			padding:30px;
+			display:flex;
+			flex-direction:column;
+		}
+		.remedies-text span{
+			color:blue;
+			font-size:1.6rem;
+		}
+		.remedies-text .remedies-title{
+			font-size: 2rem;
+			font-weight:500;
+			justify-content:center;
+			text-align:center;
+			color: #333;
+		}
+		.remedies-text .remedies-title:hover{
+			color:dodgerblue;
+			transition:all ease 0.3s;
+		}
+		.remedies-text p{
+			color: #000;
+			font-size: 1.6rem;
+			display:-webkit-box;
+			-webkit-line-clamp:3;
+			-webkit-box-orient: vertical;
+			overflow:hidden;
+			text-overflow:ellipsis;
+			margin: 20px 0px;
+		}
+		.remedies-text a:hover{
+			transition:all .3s ease;
+			color: #f33c3c;
+		}
+		.remedies-btn{
+			border: 1px solid lightblue;
+			background:blue;
+			color: white;
+			width: 20%;
+			padding: 5px;
+		}
+		@media(max-width:800px){
+		.remedies-heading{
+			padding-top:15%;
+			}	
+		}
+		@media(max-width:450px){
+			.remedies-heading{
+				padding-top:15%;
+			}
+		}	
+	</style>
+	<body>
+		
+        <div class="header">
+            <span class="logo"><img src="./images/logoo.jpg" alt=""></span>
+        
+            <nav class="navbar">
+                <a href="./index.html" class="active">Ukrasa wa Nyumbani</a>
+                <a href="./drugs.html">Dawa Zetu</a>
+                <a href="./magonjwa.html">Magonjwa</a>
+                <a href="./aboutus.html">Ujumbe kutuhusu</a>
+                <a href="./contactus.html">Kontacti Zetu</a>
+            </nav>
+        
+            <div class="right">
+                <div class="fas fa-bars" id="menu"></div>
+            </div>
+        </div>
+		
+		<section id="remedies" style="padding-top:7%;">
+			<div class="remedies-heading">
+				<span>Dawa zetu zina nguvu ya kutibu kile unachopitia</span>
+			</div>
+			<div class="remedies-container">
+
+				<div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d9.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">AMENORRHEA</a>
+						<p>
+							Tumia  Capsules ya Amenorrhea kutibu matatizo ya ada ya mwezi kwa Akina. mama.
+				        </p>
+						
+					</div>
+				</div>
+				<div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d8.jpg">
+					</div>
+					<div class="remedies-text">
+						
+						<a href="#" class="remedies-title">anti addiction</a>
+						<p>hutibu matatizo ya uraibu na matatizo katika ubongo</p>
+						
+					</div>
+				</div>
+				<div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d15.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">liver detox</a>
+						<p>acts as liver protection, blood detoxifier, liver tonic, indigestion and hepatitis</p>
+						
+					</div>
+				</div>
+				<div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d1.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">ulcers</a>
+						<p>hutibu maradhi ya vidonda vya tumbo, gesi na acid tumboni</p>
+						
+					</div>
+				</div>
+				<div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d2.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">stroke&presurre</a>
+						<p>huzibua mishipa ya damu na kuipa nguvuya kusafisha damu kwenye ubongo. huondoa pia kolestrol</p>
+						
+					</div>
+				</div>
+				<div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d3.jpg">
+					</div>
+					<div class="remedies-text">
+						
+						<a href="#" class="remedies-title">prostrate herbs</a>
+						<p>hutibu tezi dume, maintains normal urinary flow& promotes healthy testicular function</p>
+						
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d4.jpg">
+					</div>
+					<div class="remedies-text">
+						
+						<a href="#" class="remedies-title">diabetic mixture</a>
+						<p>hutibu maradhi ya sukari kupanda</p>
+						
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d5.jpg">
+					</div>
+					<div class="remedies-text">
+						
+						<a href="#" class="remedies-title">hernia</a>
+						<p>hutibu maradhi ya nigiri na chango kwa kina mama </p>
+						
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d6.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">lung detox</a>
+						<p>hutibu maumivu ya kifua, mafua na kikohozi</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d16.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">eye tonic</a>
+						<p>hutubu maradhi ya macho na kuipa macho nuru</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d10.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">kidney & bladder</a>
+						<p>huyeyusha vijiwe kwenye figo na kibofu cha mkojo. huondoa maambukizi ya UTI</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d11.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">anti allergy</a>
+						<p>hutibu matatizo ya mzio au allergy</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d12.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">arthritis & Rheumatism</a>
+						<p>hutibu maradhi ya ganzi,miguu kuwaka moto,maumivu ya mishipa, miguu, kiuno na mgongo</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d14.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">brain tonic</a>
+						<p>hurekebisha matatizo ya mishipa ya fahamu na huondoa maumivu ya kichwa na kuongeza kumbukumbu</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/d7.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">hemorrhoids herbal</a>
+						<p>hutibu ugonjwa wa bawasiri </p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/h1.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">hair tonic</a>
+						<p>huzuia nywele kung'okang'oka, huzipa nywele afya mzuri na kuzifanya kuwa nyeusi na nyororo</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/l1.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">lung detox</a>
+						<p>hutibu kikohozi,mafua, kubanwa na maumivu kwa kifua</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/l2.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">sperm and tonic addictive</a>
+						<p>huongeza sperms na kupevusha mayai na huongeza hamu na hisia ya tendo la ndoa</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/l3.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">blocked nerves</a>
+						<p>hufungua mishipa iliofungika na kujaa mafuta au damu iliyoganda inayosababisha mzunguko mbaya wa damu</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/l4.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">slimming herbs</a>
+						<p>huondoa kolestrol mwilini na hupunguza presha,unene na kitambi</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/l5.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">miswak</a>
+						<p>dawa ya kusukutua ya kuondosha harufu mbaya mdomoni na huzuia meno kuoza na fizi kutoa damu</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/l6.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">arabic powder</a>
+						<p>hutibu fangusi ya sehemu za siri ya jinsia zote na huondoa uchafu na majimaji yanayotoka kwa sehemu za siri za wanawake</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/l7.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">eye tonic</a>
+						<p>hutibu maradhi ya macho na maradhi ya mtoto wa jicho na kuipa macho nguvu ya kuona vizuri</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/l8.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">uterine tonic</a>
+						<p>Huyeyusha uvimbe kama myoma na huondoa uvimbe kama cysts na huweza kuyeyusha vijiwe</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/l9.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">Graviola</a>
+						<p>dawa hii hutibu saratani aina zote kwa sababu hushambulia aina zote za seli na vimelea vya saratani</p>	
+					</div>
+				</div>
+                <div class="remedies-box">
+					<div class="remedies-img">
+						<img src="./images/l10.jpg">
+					</div>
+					<div class="remedies-text">
+						<a href="#" class="remedies-title">constipation&Gas Herbal</a>
+						<p>Huondosha tindikali/gesi tumboni, husaidia mmeng’enyo (uyeyushaji) wa chakula tumboni</p>	
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<div class="footer">
+            <div class="footer-box">
+                <div class="footer-i f1">
+                    <h4>Kontacti</h4>
+
+                    <label> Street: MAFIA</label><br>
+                    <label> City: DAR ES SALAAM</label><br>
+                    <label> Country: Tanzania</label><br>
+                    <!--<label> Address: hjdskkdms</label><br>-->
+                    <label> Phone: +255787111990<br>
+
+                </div>
+                <div class="footer-i f2">
+                    <h4>Maelezo zaidi</h4>
+
+                    <label><a href="./magonjwa.html">Magonjwa</a></label><br>
+                    <label><a href="./drugs.html">Dawa zetu</a></label><br>
+                    <label><a href="./contactus.html">Tuanidikie Ujumbe</a></label><br>
+                    <label> </label><br>
+
+                </div>
+
+                <div class="footer-i f3">
+                    <h4>Huduma Zetu</h4>
+                    <label>
+                        Tunafanya delivery ndani na nje ya nchi<br>
+                        Aina tofauti ya madawa za kutibu magonjwa<br>
+                        Tuna madarasa kuhusu magonjwa na tiba zao<br><br>
+                        Wasiliana nasi kwa mitandao
+                    </label>
+                    <!--<input type="text" placeholder="Email Address">
+                    <button><i class="fa-solid fa-share"></i> </button>-->
+                    <div class="social-media">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+		<script src="./script.js"></script>
+	</body>
+</html>
